@@ -95,8 +95,10 @@ tasks:
 
   update_flux_gitrepo_url:
     cmds:
-      - sed -i '' "s|PacktPublishing|{{.GITHUB_USERNAME}}|g" ../clusters/multi-cluster-crossplane/apps/flux/flux-instance.yaml
+      # Note: no '' after -i
+      - sed -i "s|PacktPublishing|{{.GITHUB_USERNAME}}|g" ../clusters/multi-cluster-crossplane/apps/flux/flux-instance.yaml
     desc: Update GITHUB_USERNAME in the Flux instance YAML file
+
 
   push_flux_instance_update:
     cmds:
