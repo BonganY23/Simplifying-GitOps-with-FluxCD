@@ -49,4 +49,4 @@ Command: sed -i 's/0.0.0.0/127.0.0.1/g' ~/.kube/config
 	11) Restart the cluster:
 
 Command: k3d cluster stop ch10-crossplane ; k3d cluster start ch10-crossplane
-![image](https://github.com/user-attachments/assets/ae87a600-401f-4247-afad-88172e85ed35)
+
