@@ -15,9 +15,11 @@ INFO: This allows us to git pull/push from my repositories.
 	4) Execute the following commands with proper values:
 
 Command(1): git config --global user.email "you@example.com"
+
 Example: git config --global user.email "bogomilkovachev97@gmail.com"
 
 Command(2): git config --global user.name "Your Name"
+
 Example: git config --global user.name "BonganY23"
 
 
