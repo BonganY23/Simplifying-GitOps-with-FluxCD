@@ -9,6 +9,7 @@ Command: ssh-keygen -t rsa -b 4096
 Command: cat ~/.ssh/id_rsa.pub
 	
 INFO: Distribute the public key within the Github account.
+
 INFO: This allows us to git pull/push from my repositories.
 
 	4) Execute the following commands with proper values:
